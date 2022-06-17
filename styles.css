@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -113,4 +114,22 @@ hr {
 
 .bgrd {
     background-color: var(--light-gray);
+}
+
+/** footer **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0rem;
 }
